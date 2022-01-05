@@ -1,10 +1,9 @@
-    @extends('app')
-
-    @section('titulo')
-        SOBRE MIM
-    @endsection
-
-    @section('conteudo')
-            <h1>Meu nome é {{ $eu['nome'] }}</h1>
-            <h2>Tenho {{ $eu['idade'] }} anos</h2>
-    @endsection
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Minha Primeira Aplicação Laravel</title>
+    </head>
+    <body>
+        <h1>Olá Mundo! - Sobre</h1>
+    </body>
+</html>

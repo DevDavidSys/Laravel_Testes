@@ -20,10 +20,6 @@ Route::get('/', function () {
 
 Route::get('/welcome',[PagesController::class,'welcome']);
 
-Route::get('/index', function(){
-    return 'Hello World FROM index/Laravel';
-});
-
 Route::get('/controller',[PagesController::class,'controller']);
 
 Route::get('/amigos',[PagesController::class,'amigos']);

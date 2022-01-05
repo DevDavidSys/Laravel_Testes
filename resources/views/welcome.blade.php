@@ -4,6 +4,6 @@
         <title>Minha Primeira Aplicação Laravel</title>
     </head>
     <body>
-        <h1>Olá Mundo - Controller!</h1>
+        <h1>Olá Mundo! - welcome</h1>
     </body>
 </html>

@@ -18,8 +18,6 @@ Route::get('/', function () {
     return 'Hello FROM Laravel';
 });
 
-Route::get('/welcome',[PagesController::class,'welcome']);
-
 Route::get('/controller',[PagesController::class,'controller']);
 
 Route::get('/amigos',[PagesController::class,'amigos']);
@@ -27,3 +25,5 @@ Route::get('/amigos',[PagesController::class,'amigos']);
 Route::get('/sobre',[PagesController::class,'sobre']);
 
 Route::get('/app',[PagesController::class,'app']);
+
+Route::get('/welcome',[PagesController::class,'welcome']);

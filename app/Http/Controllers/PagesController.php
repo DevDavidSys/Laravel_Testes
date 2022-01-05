@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
+    function welcome(){
+        $eu = ['name'=>'Davi'];
+        return view('welcome');
+        
+
+    }
     function controller(){
         return view('controller');
     }
@@ -27,8 +33,6 @@ class PagesController extends Controller
 
         return view('app');
     }
-    function welcome(){
-        view('sobre');
-    }
+    
 
 }

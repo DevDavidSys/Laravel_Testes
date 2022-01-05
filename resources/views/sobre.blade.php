@@ -1,9 +1,13 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Minha Primeira Aplicação Laravel</title>
-    </head>
-    <body>
-        <h1>Olá Mundo! - Sobre</h1>
-    </body>
-</html>
+@extends('model')
+
+@section('title', 'Page Title')
+
+@section('sidebar')
+    @parent
+
+    <p>This is appended to the master sidebar.</p>
+@endsection
+
+@section('content')
+    <p>This is my body content.</p>
+@endsection

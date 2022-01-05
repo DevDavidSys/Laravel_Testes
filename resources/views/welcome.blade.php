@@ -4,6 +4,7 @@
         <title>Minha Primeira Aplicação Laravel</title>
     </head>
     <body>
-        <h1>Olá Mundo! - welcome</h1>
+        <h1>Olá Mundo! - Welcome</h1>
+        @yield('conteudo')
     </body>
 </html>
